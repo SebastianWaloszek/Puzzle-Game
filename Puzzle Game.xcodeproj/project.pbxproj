@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		71611A6C1ECAE89500D50374 /* wrong_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71611A6B1ECAE89500D50374 /* wrong_sound.mp3 */; };
 		71611A6E1ECAE94600D50374 /* applause_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71611A6D1ECAE94600D50374 /* applause_sound.mp3 */; };
+		71CC92361F33C468000BE68F /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CC92351F33C468000BE68F /* Puzzle.swift */; };
 		71DDD1CA1ECAE59A003CFA76 /* success_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71DDD1C91ECAE59A003CFA76 /* success_sound.mp3 */; };
 		71EC6DF71F32720D004F7FDA /* PuzzleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EC6DF61F32720D004F7FDA /* PuzzleHelper.swift */; };
 		71EC6DF91F328D01004F7FDA /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EC6DF81F328D01004F7FDA /* SoundPlayer.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		71611A6B1ECAE89500D50374 /* wrong_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong_sound.mp3; sourceTree = "<group>"; };
 		71611A6D1ECAE94600D50374 /* applause_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = applause_sound.mp3; sourceTree = "<group>"; };
+		71CC92351F33C468000BE68F /* Puzzle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
 		71DDD1C91ECAE59A003CFA76 /* success_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = success_sound.mp3; sourceTree = "<group>"; };
 		71EC6DF61F32720D004F7FDA /* PuzzleHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleHelper.swift; sourceTree = "<group>"; };
 		71EC6DF81F328D01004F7FDA /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71CC92371F33C47C000BE68F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71CC92351F33C468000BE68F /* Puzzle.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		71EC6DED1F3257F9004F7FDA /* Sound Effects */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +87,7 @@
 		71EC6DF11F325C78004F7FDA /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				71EC6DF81F328D01004F7FDA /* SoundPlayer.swift */,
 				71EC6DF61F32720D004F7FDA /* PuzzleHelper.swift */,
 			);
 			name = Helpers;
@@ -103,9 +114,9 @@
 			children = (
 				71EC6DEE1F32583B004F7FDA /* Supporting Files */,
 				9ECC8FBF1EC43D98005F497C /* GameScene.sks */,
+				71CC92371F33C47C000BE68F /* Model */,
 				9ECC8FC11EC43D98005F497C /* Actions.sks */,
 				9ECC8FC31EC43D98005F497C /* PuzzleGameScene.swift */,
-				71EC6DF81F328D01004F7FDA /* SoundPlayer.swift */,
 				71EC6DF11F325C78004F7FDA /* Helpers */,
 				71EC6DED1F3257F9004F7FDA /* Sound Effects */,
 				9ECC8FC51EC43D98005F497C /* GameViewController.swift */,
@@ -193,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71CC92361F33C468000BE68F /* Puzzle.swift in Sources */,
 				71EC6DF71F32720D004F7FDA /* PuzzleHelper.swift in Sources */,
 				9ECC8FC41EC43D98005F497C /* PuzzleGameScene.swift in Sources */,
 				9ECC8FC61EC43D98005F497C /* GameViewController.swift in Sources */,
