@@ -67,7 +67,7 @@ class SKButton: SKSpriteNode {
             Timer.scheduledTimer(timeInterval: 0.01, target: targetUp!, selector: selectorUp!, userInfo: nil, repeats: false)
             
         }
-
+        
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -81,9 +81,9 @@ class SKButton: SKSpriteNode {
             Timer.scheduledTimer(timeInterval: 0.01, target: targetUp!, selector: selectorUp!, userInfo: nil, repeats: false)
             
         }
-
+        
     }
-
+    
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }

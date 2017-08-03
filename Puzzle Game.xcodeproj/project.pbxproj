@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		71611A6C1ECAE89500D50374 /* wrong_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71611A6B1ECAE89500D50374 /* wrong_sound.mp3 */; };
-		71611A6E1ECAE94600D50374 /* applause.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71611A6D1ECAE94600D50374 /* applause.mp3 */; };
-		71DDD1CA1ECAE59A003CFA76 /* sonic_ring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71DDD1C91ECAE59A003CFA76 /* sonic_ring.mp3 */; };
+		71611A6E1ECAE94600D50374 /* applause_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71611A6D1ECAE94600D50374 /* applause_sound.mp3 */; };
+		71DDD1CA1ECAE59A003CFA76 /* success_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71DDD1C91ECAE59A003CFA76 /* success_sound.mp3 */; };
+		71EC6DF71F32720D004F7FDA /* PuzzleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EC6DF61F32720D004F7FDA /* PuzzleHelper.swift */; };
+		71EC6DF91F328D01004F7FDA /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EC6DF81F328D01004F7FDA /* SoundPlayer.swift */; };
 		9ECC8FBE1EC43D98005F497C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECC8FBD1EC43D98005F497C /* AppDelegate.swift */; };
 		9ECC8FC01EC43D98005F497C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9ECC8FBF1EC43D98005F497C /* GameScene.sks */; };
 		9ECC8FC21EC43D98005F497C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9ECC8FC11EC43D98005F497C /* Actions.sks */; };
-		9ECC8FC41EC43D98005F497C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECC8FC31EC43D98005F497C /* GameScene.swift */; };
+		9ECC8FC41EC43D98005F497C /* PuzzleGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECC8FC31EC43D98005F497C /* PuzzleGameScene.swift */; };
 		9ECC8FC61EC43D98005F497C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECC8FC51EC43D98005F497C /* GameViewController.swift */; };
 		9ECC8FC91EC43D98005F497C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECC8FC71EC43D98005F497C /* Main.storyboard */; };
 		9ECC8FCB1EC43D98005F497C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ECC8FCA1EC43D98005F497C /* Assets.xcassets */; };
@@ -23,13 +25,15 @@
 
 /* Begin PBXFileReference section */
 		71611A6B1ECAE89500D50374 /* wrong_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong_sound.mp3; sourceTree = "<group>"; };
-		71611A6D1ECAE94600D50374 /* applause.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = applause.mp3; sourceTree = "<group>"; };
-		71DDD1C91ECAE59A003CFA76 /* sonic_ring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sonic_ring.mp3; sourceTree = "<group>"; };
+		71611A6D1ECAE94600D50374 /* applause_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = applause_sound.mp3; sourceTree = "<group>"; };
+		71DDD1C91ECAE59A003CFA76 /* success_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = success_sound.mp3; sourceTree = "<group>"; };
+		71EC6DF61F32720D004F7FDA /* PuzzleHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleHelper.swift; sourceTree = "<group>"; };
+		71EC6DF81F328D01004F7FDA /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		9ECC8FBA1EC43D98005F497C /* Puzzle Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Puzzle Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ECC8FBD1EC43D98005F497C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9ECC8FBF1EC43D98005F497C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		9ECC8FC11EC43D98005F497C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		9ECC8FC31EC43D98005F497C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9ECC8FC31EC43D98005F497C /* PuzzleGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleGameScene.swift; sourceTree = "<group>"; };
 		9ECC8FC51EC43D98005F497C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		9ECC8FC81EC43D98005F497C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9ECC8FCA1EC43D98005F497C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71EC6DED1F3257F9004F7FDA /* Sound Effects */ = {
+			isa = PBXGroup;
+			children = (
+				71611A6B1ECAE89500D50374 /* wrong_sound.mp3 */,
+				71611A6D1ECAE94600D50374 /* applause_sound.mp3 */,
+				71DDD1C91ECAE59A003CFA76 /* success_sound.mp3 */,
+			);
+			name = "Sound Effects";
+			sourceTree = "<group>";
+		};
+		71EC6DEE1F32583B004F7FDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9ECC8FBD1EC43D98005F497C /* AppDelegate.swift */,
+				9ECC8FDD1EC488D3005F497C /* SKButton.swift */,
+				9ECC8FCC1EC43D98005F497C /* LaunchScreen.storyboard */,
+				9ECC8FCF1EC43D98005F497C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71EC6DF11F325C78004F7FDA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				71EC6DF61F32720D004F7FDA /* PuzzleHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		9ECC8FB11EC43D98005F497C = {
 			isa = PBXGroup;
 			children = (
@@ -68,19 +101,16 @@
 		9ECC8FBC1EC43D98005F497C /* Puzzle Game */ = {
 			isa = PBXGroup;
 			children = (
-				9ECC8FBD1EC43D98005F497C /* AppDelegate.swift */,
+				71EC6DEE1F32583B004F7FDA /* Supporting Files */,
 				9ECC8FBF1EC43D98005F497C /* GameScene.sks */,
 				9ECC8FC11EC43D98005F497C /* Actions.sks */,
-				9ECC8FC31EC43D98005F497C /* GameScene.swift */,
-				9ECC8FDD1EC488D3005F497C /* SKButton.swift */,
-				71611A6B1ECAE89500D50374 /* wrong_sound.mp3 */,
+				9ECC8FC31EC43D98005F497C /* PuzzleGameScene.swift */,
+				71EC6DF81F328D01004F7FDA /* SoundPlayer.swift */,
+				71EC6DF11F325C78004F7FDA /* Helpers */,
+				71EC6DED1F3257F9004F7FDA /* Sound Effects */,
 				9ECC8FC51EC43D98005F497C /* GameViewController.swift */,
-				71611A6D1ECAE94600D50374 /* applause.mp3 */,
-				71DDD1C91ECAE59A003CFA76 /* sonic_ring.mp3 */,
 				9ECC8FC71EC43D98005F497C /* Main.storyboard */,
 				9ECC8FCA1EC43D98005F497C /* Assets.xcassets */,
-				9ECC8FCC1EC43D98005F497C /* LaunchScreen.storyboard */,
-				9ECC8FCF1EC43D98005F497C /* Info.plist */,
 			);
 			path = "Puzzle Game";
 			sourceTree = "<group>";
@@ -146,11 +176,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ECC8FC91EC43D98005F497C /* Main.storyboard in Resources */,
-				71DDD1CA1ECAE59A003CFA76 /* sonic_ring.mp3 in Resources */,
+				71DDD1CA1ECAE59A003CFA76 /* success_sound.mp3 in Resources */,
 				9ECC8FC01EC43D98005F497C /* GameScene.sks in Resources */,
 				9ECC8FCB1EC43D98005F497C /* Assets.xcassets in Resources */,
 				9ECC8FCE1EC43D98005F497C /* LaunchScreen.storyboard in Resources */,
-				71611A6E1ECAE94600D50374 /* applause.mp3 in Resources */,
+				71611A6E1ECAE94600D50374 /* applause_sound.mp3 in Resources */,
 				71611A6C1ECAE89500D50374 /* wrong_sound.mp3 in Resources */,
 				9ECC8FC21EC43D98005F497C /* Actions.sks in Resources */,
 			);
@@ -163,9 +193,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ECC8FC41EC43D98005F497C /* GameScene.swift in Sources */,
+				71EC6DF71F32720D004F7FDA /* PuzzleHelper.swift in Sources */,
+				9ECC8FC41EC43D98005F497C /* PuzzleGameScene.swift in Sources */,
 				9ECC8FC61EC43D98005F497C /* GameViewController.swift in Sources */,
 				9ECC8FBE1EC43D98005F497C /* AppDelegate.swift in Sources */,
+				71EC6DF91F328D01004F7FDA /* SoundPlayer.swift in Sources */,
 				9ECC8FDE1EC488D3005F497C /* SKButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
